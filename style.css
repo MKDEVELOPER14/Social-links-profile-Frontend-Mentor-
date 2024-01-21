@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root{
+    --font:'Inter', sans-serif;;
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --DarkGrey: hsl(0, 0%, 12%);
+    --OffBlack: hsl(0, 0%, 8%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    min-height: 100vh;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--OffBlack);
+}
+.card{
+    background-color: var(--DarkGrey);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.profileDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+}
+.socialDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0rem;
+}
+.profileLogo{
+    border-radius:50% ;
+    margin-bottom: 1.2rem;
+}
+.profileName{
+    color: var(--White);
+    font-family: var(--font);
+    font-size: 1.3rem;
+    margin-bottom: 0.3rem;
+}
+.subTitle{
+    color: var(--Green);
+    font-family:var(--font);
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-bottom: 1.3rem;
+}
+.desc{
+    font-family: var(--font);
+    color: var(--White);
+    font-weight: 400;
+    font-size: 0.7rem;
+    margin-bottom: 1.5rem;
+}
+.btn{
+    width: 100%;
+    padding: 9px;
+    font-family: var(--font);
+    font-weight: 900;
+    margin-bottom: 1rem;
+    background-color: var(--Grey);
+    border: none;
+    border-radius: 5px;
+    color: var(--White);
+}
+.btn:last-child{
+    margin-bottom: 0;
+}
+
